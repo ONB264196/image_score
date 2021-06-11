@@ -15,6 +15,13 @@ void gmain() {
     int UpFlag = 0;
     int DownFlag = 0;
     int LoopCut = 0;
+
+    if (m > M) {
+        WARNING(1, "Å¬’l‚ªÅ‘å’l‚æ‚è‘å‚«‚¢", "");
+    }
+    if (m < 0 || M < 0) {
+        WARNING(1, "0ˆÈ‰º‚Í•\Ž¦‚Å‚«‚È‚¢", "");
+    }
     
 
     while (notQuit) {
